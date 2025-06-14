@@ -1,0 +1,83 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  padding: 20px;
+  margin: 0;
+  background-color: white;
+  color: black;
+  transition: background 0.3s, color 0.3s;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212;
+    color: #eee;
+  }
+
+  input, button {
+    background-color: #1e1e1e;
+    color: white;
+    border: 1px solid #444;
+  }
+}
+
+h1, h3 {
+  text-align: center;
+}
+
+input, button {
+  padding: 10px;
+  width: 100%;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.member {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+}
+
+#member-list {
+  margin-top: 15px;
+}
+
+.del-btn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 8px;
+  border-radius: 4px;
+  font-size: 0.9em;
+  cursor: pointer;
+}
+
+.clear-btn {
+  background-color: darkorange;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-top: 15px;
+  width: 100%;
+  border-radius: 5px;
+  font-weight: bold;
+}
